@@ -1,7 +1,29 @@
 .btn {
     margin-bottom: 5px;
+    background-color: #E2E2E2;
+    border-radius: 0px;
+}
+
+.btn:hover {
+    border: 1px solid #737373;
 }
 
 .navbar {
-    //background-color:  red;
+    background-color: #5e0009;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+.panel-heading {
+    background-color: #5e0009;
+    color: white;
+    box-shadow: 0 1px 1px rgba(0,0,0,.25);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.panel {
+    box-shadow: 0 1px 1px rgba(0,0,0,.25);
 }
